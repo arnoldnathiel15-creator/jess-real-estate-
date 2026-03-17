@@ -1,9 +1,18 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Jess Real Estate & Property Agency</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"><style>
+
+<meta name="description" content="Jess Real Estate helping people buy, sell and rent houses and land across Sierra Leone.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
 *{box-sizing:border-box;margin:0;padding:0}
 
 body{
@@ -12,16 +21,23 @@ background:#f5f7fa;
 color:#333;
 }
 
+/* HEADER */
+
 header{
 background:#1c4fa3;
-padding:15px;
+padding:25px;
 text-align:center;
+color:white;
 }
 
-.logo{
-max-width:180px;
-display:block;
-margin:0 auto 10px auto;
+header h1{
+font-size:30px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+nav{
+margin-top:10px;
 }
 
 nav a{
@@ -31,7 +47,11 @@ margin:0 10px;
 font-weight:500;
 }
 
-nav a:hover{opacity:0.8}
+nav a:hover{
+opacity:0.8;
+}
+
+/* HERO */
 
 .hero{
 height:70vh;
@@ -66,6 +86,8 @@ display:inline-block;
 margin-top:10px;
 }
 
+/* SECTIONS */
+
 .section{
 padding:60px 20px;
 max-width:1000px;
@@ -81,8 +103,10 @@ margin-bottom:25px;
 background:#eef2f7;
 padding:30px;
 border-radius:12px;
-line-height:1.7;
+line-height:1.8;
 }
+
+/* FORM */
 
 form input, form textarea{
 width:100%;
@@ -91,6 +115,8 @@ margin:10px 0;
 border:1px solid #ccc;
 border-radius:6px;
 }
+
+/* FLOATING BUTTONS */
 
 .floating-buttons{
 position:fixed;
@@ -121,6 +147,8 @@ font-weight:600;
 text-align:center;
 }
 
+/* FOOTER */
+
 footer{
 background:#111;
 color:white;
@@ -129,50 +157,142 @@ padding:25px;
 margin-top:40px;
 }
 
-</style></head><body><header><!-- WEBSITE LOGO --><img src="https://i.imgur.com/2s9XGQp.png" class="logo" alt="Jess Real Estate Logo"><nav>
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1><strong>Jess Real Estate & Property Agency</strong></h1>
+
+<nav>
 <a href="#home">Home</a>
 <a href="#services">Services</a>
+<a href="#why">Why Us</a>
 <a href="#about">About</a>
 <a href="#contact">Contact</a>
-</nav></header><section class="hero" id="home"><div class="hero-box">
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-box">
 <h1>Find Your Dream Property</h1>
 <p>Jess Real Estate helping you buy, sell and rent property across Sierra Leone.</p>
 <a class="btn" href="#contact">Contact Us</a>
-</div></section><section class="section" id="services"><h2>Our Services</h2><div class="card-box">
-<p><strong>Property Sales</strong> – Helping clients buy and sell houses and land.</p>
-<p><strong>Property Rentals</strong> – Connecting tenants with rental homes.</p>
-<p><strong>Property Marketing</strong> – Promoting property listings to buyers.</p>
-<p><strong>Property Consultation</strong> – Helping investors make smart decisions.</p>
-</div></section><section class="section" id="about"><h2>About Jess Real Estate</h2><div class="card-box">
-<p>Jess Real Estate & Property Agency connects property owners with buyers and tenants across Sierra Leone.</p>
-<p>Our mission is to make property transactions simple, safe and transparent.</p>
-</div></section><section class="section" id="contact"><h2>List Your Property</h2><form id="propertyForm"><input type="text" id="name" placeholder="Your Name" required><input type="text" id="phone" placeholder="Phone Number" required><input type="text" id="location" placeholder="Property Location" required><textarea id="details" rows="4" placeholder="Property Details"></textarea><button class="btn" type="submit">Submit Property</button>
+</div>
 
-</form></section><div class="floating-buttons"><a class="call" href="tel:+23277491792"> Call Us</a>
+</section>
+
+<section class="section" id="services">
+
+<h2>Our Services</h2>
+
+<div class="card-box">
+
+<p><strong>Property Sales</strong> â€“ Helping clients buy and sell houses and land.</p>
+
+<p><strong>Property Rentals</strong> â€“ Connecting tenants with rental homes.</p>
+
+<p><strong>Property Marketing</strong> â€“ Promoting property listings to serious buyers.</p>
+
+<p><strong>Property Consultation</strong> â€“ Helping investors make smart property decisions.</p>
+
+</div>
+
+</section>
+
+<section class="section" id="why">
+
+<h2>Why Choose Jess Real Estate</h2>
+
+<div class="card-box">
+
+<p> Trusted property agency serving clients across Sierra Leone.</p>
+
+<p> Fast communication through phone and WhatsApp.</p>
+
+<p> We connect property owners with serious buyers.</p>
+
+<p> Honest and transparent property transactions.</p>
+
+<p> Helping investors find land and houses with great value.</p>
+
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<h2>About Jess Real Estate</h2>
+
+<div class="card-box">
+
+<p>Jess Real Estate & Property Agency connects property owners with buyers and tenants across Sierra Leone.</p>
+
+<p>Our mission is to make property transactions simple, safe and transparent for everyone.</p>
+
+</div>
+
+</section>
+
+<section class="section" id="contact">
+
+<h2>List Your Property</h2>
+
+<form id="propertyForm">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="text" id="phone" placeholder="Phone Number" required>
+
+<input type="text" id="location" placeholder="Property Location" required>
+
+<textarea id="details" rows="4" placeholder="Property Details"></textarea>
+
+<button class="btn" type="submit">Submit Property</button>
+
+</form>
+
+</section>
+
+<div class="floating-buttons">
+
+<a class="call" href="tel:+23277491792"> Call Us</a>
 
 <a class="whatsapp" href="https://wa.me/23277491792" target="_blank"> WhatsApp</a>
 
-</div><footer><p>© 2026 Jess Real Estate & Property Agency</p>
-<p>Freetown • Sierra Leone</p></footer><script>
+</div>
 
-const form = document.getElementById('propertyForm');
+<footer>
 
-form.addEventListener('submit', function(e){
+<p>Â© 2026 Jess Real Estate & Property Agency</p>
+<p>Freetown â€¢ Sierra Leone</p>
 
- e.preventDefault();
+</footer>
 
- const name = document.getElementById('name').value;
- const phone = document.getElementById('phone').value;
- const location = document.getElementById('location').value;
- const details = document.getElementById('details').value;
+<script>
 
- const message = `New Property Submission:%0A%0AName: ${name}%0APhone: ${phone}%0ALocation: ${location}%0ADetails: ${details}`;
+const form=document.getElementById('propertyForm');
 
- const whatsappURL = `https://wa.me/23277491792?text=${message}`;
+form.addEventListener('submit',function(e){
 
- window.open(whatsappURL, '_blank');
+e.preventDefault();
+
+const name=document.getElementById('name').value;
+const phone=document.getElementById('phone').value;
+const location=document.getElementById('location').value;
+const details=document.getElementById('details').value;
+
+const message=`New Property Submission:%0A%0AName: ${name}%0APhone: ${phone}%0ALocation: ${location}%0ADetails: ${details}`;
+
+window.open(`https://wa.me/23277491792?text=${message}`);
 
 });
 
-</script></body>
+</script>
+
+</body>
 </html>
